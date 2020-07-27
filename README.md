@@ -10,7 +10,7 @@ This bot scrapes weather data using from the Climatempo website. For more inform
 This bot will produce 54 outputs that will be written in a JSON file.
 
 
-##### Example:
+##### Example (1 output):
 
 ```json
 [
@@ -34,15 +34,16 @@ This bot will produce 54 outputs that will be written in a JSON file.
 ## Bot Usage
 
 To run the bot you must be in the main folder and run the following command:
-
+```
 scrapy crawl WeatherSpider -o weather.json  
-
+```
 Warning: you must delete the weather.json file before crawling again, you can use the following command for that:
-
+```
 rm weather.json
-
+```
 ## Data Visualization
 
 To better data visualization it was added to the project a python program to convert the output file (weather.json) in a csv file (weather_output.csv). To run the program just run the following command:
-
+```
 python json_to_csv.py weather.json weather_output.csv
+```
