@@ -2,7 +2,7 @@
 
 ## Source Analysis
 
-This bot scrapes weather data using from the Climatempo website. For more information about the Climatempo website, visit [this website](https://www.climatempo.com.br/). The bot scrapes data from every capital of the country Brazil, from the current day and the following day. 
+This bot scrapes weather data from the Climatempo website using Scrapy. For more information about the Climatempo website, visit [this website](https://www.climatempo.com.br/). The bot scrapes data from every capital of the country Brazil, from the current day and the following day. 
 
 ### Outputs
 
